@@ -1,5 +1,7 @@
+'use client';
+
 import * as Cronitor from '@cronitorio/cronitor-rum-js';
-import { useRouter } from 'next/router';
+import { usePathname, useSearchParams } from 'next/navigation';
 import { useEffect } from 'react';
 
 /**
@@ -8,24 +10,17 @@ import { useEffect } from 'react';
  * @param clientKey the client key for the Cronitor site.
  * @param config the Cronitor tracker configuration object.
  */
-export const useCronitor = (clientKey: string, config: Cronitor.CronitorRUMConfig = {}) => {
-  const router = useRouter();
+export function useCronitor(clientKey: string, config: Cronitor.CronitorRUMConfig = {}) {
+  const pathname = usePathname();
+  const searchParams = useSearchParams();
 
   useEffect(() => {
     Cronitor.load(clientKey, config);
+  }, []);
 
-    // Trigger initial page view
+  useEffect(() => {
     Cronitor.track('Pageview');
-
-    // Add on route change handler for client-side navigation
-    const handleRouteChange = () => Cronitor.track('Pageview');
-    
-    router.events.on('routeChangeComplete', handleRouteChange);
-
-    return () => {
-      router.events.off('routeChangeComplete', handleRouteChange);
-    };
-  }, [clientKey]);
+  }, [pathname, searchParams]);
 
   return Cronitor;
 };
