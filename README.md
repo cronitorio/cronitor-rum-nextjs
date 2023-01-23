@@ -1,5 +1,7 @@
 # Cronitor RUM Next.js integration
 
+> **Important:** As of version 0.2.0 of this package only Next.js 13 or later will be supported. For previous versions of Next.js please install version 0.1.0 of this package.
+
 Official [Cronitor Real User Monitoring](https://cronitor.io/real-user-monitoring) integration for Next.js.
 
 ## Quickstart
@@ -62,6 +64,10 @@ export default CustomApp;
 
 
 ## Changelog
+
+### 0.2.0
+
+- Support new Next.js 13 'app' directory and client-only components.
 
 ### 0.1.0
 
