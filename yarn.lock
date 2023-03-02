@@ -23,10 +23,10 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@cronitorio/cronitor-rum-js@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@cronitorio/cronitor-rum-js/-/cronitor-rum-js-0.1.0.tgz#f53bcb1b14b0d359a6d02ee5a163ef85c14ae28f"
-  integrity sha512-033cfjQvmPFtd9SkdK70bL711mx7kRmzUaI+q6cQF2Q1nEPT79rqyQH7wpVfqV25YAtcAjnYQycaEeldMPh38Q==
+"@cronitorio/cronitor-rum-js@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@cronitorio/cronitor-rum-js/-/cronitor-rum-js-0.2.0.tgz#9c6257d7f46e3f4977fc966d10e1d92de7678be3"
+  integrity sha512-xOCQxM89/7N3y1yYRFAVWjd9g+EECCQRHblHf+aeHqPWO3uaulexIuuLNZYiqwvLSLJSJYnU0yzriCCiAYnylw==
 
 "@next/env@13.1.4":
   version "13.1.4"

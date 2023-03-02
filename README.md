@@ -53,7 +53,9 @@ import { useCronitor } from '@cronitorio/cronitor-rum-nextjs';
 function CustomApp({ Component, pageProps }) {
   
   useCronitor('YOUR_SITE_ID', {
-    debug: true
+    debug: true,
+    environment: "staging",
+    includeURLQueryParams: ["tab", "pageNum"]
   });
 
   return <Component {...pageProps} />;
@@ -64,6 +66,10 @@ export default CustomApp;
 
 
 ## Changelog
+
+### 0.2.1
+
+- Update cronitor-rum-js lib.
 
 ### 0.2.0
 

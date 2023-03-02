@@ -1,6 +1,6 @@
 {
   "name": "@cronitorio/cronitor-rum-nextjs",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Official Cronitor integration for Next.js",
   "repository": {
     "type": "git",
@@ -33,7 +33,7 @@
     "react": "^18"
   },
   "dependencies": {
-    "@cronitorio/cronitor-rum-js": "^0.1.0"
+    "@cronitorio/cronitor-rum-js": "^0.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
