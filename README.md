@@ -64,8 +64,11 @@ function CustomApp({ Component, pageProps }) {
 export default CustomApp;
 ```
 
-
 ## Changelog
+
+### 0.3.0
+
+- Update cronitor-rum-js lib.
 
 ### 0.2.1
 

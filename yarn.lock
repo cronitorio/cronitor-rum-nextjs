@@ -23,10 +23,12 @@
     chalk "^2.0.0"
     js-tokens "^4.0.0"
 
-"@cronitorio/cronitor-rum-js@^0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@cronitorio/cronitor-rum-js/-/cronitor-rum-js-0.2.0.tgz#9c6257d7f46e3f4977fc966d10e1d92de7678be3"
-  integrity sha512-xOCQxM89/7N3y1yYRFAVWjd9g+EECCQRHblHf+aeHqPWO3uaulexIuuLNZYiqwvLSLJSJYnU0yzriCCiAYnylw==
+"@cronitorio/cronitor-rum-js@^0.3.0":
+  version "0.3.0"
+  resolved "https://registry.yarnpkg.com/@cronitorio/cronitor-rum-js/-/cronitor-rum-js-0.3.0.tgz#e33d642da1ce5c455336a1e89c515e71d21d37be"
+  integrity sha512-4Jhfl+F+NajZbbgxpuQm/Xv6M8L7uvZ2u8cwdlIZfMnBXXc3tvJia7bCe0fTNUnbiCTHUCgxALJQSVvt63+P4w==
+  dependencies:
+    web-vitals "^3.3.0"
 
 "@next/env@13.1.4":
   version "13.1.4"
@@ -465,6 +467,11 @@ typescript@^4.9.4:
   version "4.9.4"
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.9.4.tgz#a2a3d2756c079abda241d75f149df9d561091e78"
   integrity sha512-Uz+dTXYzxXXbsFpM86Wh3dKCxrQqUcVMxwU54orwlJjOpO3ao8L7j5lH+dWfTwgCwIuM9GQ2kvVotzYJMXTBZg==
+
+web-vitals@^3.3.0:
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/web-vitals/-/web-vitals-3.3.0.tgz#2e14bcbb3acf71d00c49519ab92cc517511476d5"
+  integrity sha512-GZsEmJBNclIpViS/7QVOTr7Kbt4BgLeR7kQ5zCCtJVuiWsA+K6xTXaoEXssvl8yYFICEyNmA2Nr+vgBYTnS4bA==
 
 wrappy@1:
   version "1.0.2"
