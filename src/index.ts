@@ -1,6 +1,6 @@
 'use client';
 
-import * as Cronitor from '@cronitorio/cronitor-rum-js';
+import * as Cronitor from '@cronitorio/cronitor-rum';
 import { usePathname, useSearchParams } from 'next/navigation';
 import { useEffect } from 'react';
 

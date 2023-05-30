@@ -66,6 +66,10 @@ export default CustomApp;
 
 ## Changelog
 
+### 0.4.0
+
+- Update cronitor-rum lib.
+
 ### 0.3.0
 
 - Update cronitor-rum-js lib.
