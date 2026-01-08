@@ -29,8 +29,8 @@
     "lint": "tslint -p tsconfig.json"
   },
   "peerDependencies": {
-    "next": "^13 || ^14",
-    "react": "^18"
+    "next": "^13 || ^14 || ^15 || ^16",
+    "react": "^18 || ^19"
   },
   "dependencies": {
     "@cronitorio/cronitor-rum": "^0.4.0"
