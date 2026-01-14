@@ -1,6 +1,6 @@
 # Cronitor RUM Next.js integration
 
-> **Important:** As of version 0.2.0 of this package only Next.js 13 or later will be supported. Version 0.5.0 adds official support for Next.js 14-16. For previous versions of Next.js please install version 0.1.0 of this package.
+> **Important:** As of version 0.2.0 of this package only Next.js 13 or later will be supported. Version 0.5.0 adds support for Next.js 14-16.
 
 Official [Cronitor Real User Monitoring](https://cronitor.io/real-user-monitoring) integration for Next.js.
 
